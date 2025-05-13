@@ -238,7 +238,7 @@ Detect the unit cell with proper lattice parameters, all the particles in the un
 
 ### Complete flowchart of UCrysPy
 
-![summary_v1.png](images/summary_v1.png)
+![summary_v1.png](summary_v1.png)
 
 Step-1 --- Upload file and show the configuration
 
@@ -282,7 +282,7 @@ From the "Kmeans" menu, select "c_min"=2, "c_max"=20 and "Go"
 
 The screenshots corresponding upto these steps are merged and shown below.
 
-![step_1_2.png](images/step_1_2.png)
+![step_1_2.png](step_1_2.png)
 
 Now, we have to detect the local environment and separate any particular type if more than one type exists.
 
@@ -329,11 +329,13 @@ As it shows, no crystal class has been detected within the given tolerance value
 It asks for an user input "Continue ? (y/n)". As no crystal class is detected, please select "n". It gives a warning as follow.
 `WARNING : Please recalculate "Environment separation" with extarnal tolerance values`
 To change the tolerances, go back to the "Environment separation" menu. Select "r_tol"=0.01, "a_tol"=5 and "Go". It again askas for the user input "Bravais/Non-bravais (b/nb) ?". As the transformed system is already a Bravais structure, please select "b" again. Then from "Crystal class" menu, select "elbow"=12 and "Go". Now, it prints the follwoing output.
+
 `Detected crystal class is :  CUBIC`
 `Number of possible choice of unit cells :  4`
+
 The screenshots are shown below.
 
-![step_3_4.png](images/step_3_4.png)
+![step_3_4.png](step_3_4.png)
 
 The detected crystal class is "Cubic" and the number of possible unit cells is 4. Is askes another user input, "Continue? (y/n)". Please select "y" as we will move further with the detected crystal clas. 
 
@@ -352,4 +354,4 @@ Now the user could be able to see the specific details of the chosen unit cell i
 
 It also prints the unit cell particles identities, which can be used to verify the correct unit cell by tracking the particle coordinates in the chosen system. The relevant screenshot is shown below.
 
-![step_5.png](images/step_5.png)
+![step_5.png](step_5.png)
