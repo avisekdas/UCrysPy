@@ -1,7 +1,7 @@
 # UCrysPy
 Python based visualization tool to detect the crystal structures from computer simulation data
 
-For details, please visit arxiv link : [<href>](https://arxiv.org/abs/2407.08808)
+For details, please visit arxiv link : [(https://arxiv.org/abs/2407.08808)](https://arxiv.org/abs/2407.08808)
 
 **Contact** : 
 
