@@ -238,7 +238,7 @@ Detect the unit cell with proper lattice parameters, all the particles in the un
 
 ### Complete flowchart of UCrysPy
 
-![summary_v1.png](attachment:09465cb5-d5b7-401c-8277-20edd55f4447.png)
+![summary_v1.png](images/summary_v1.png)
 
 Step-1 --- Upload file and show the configuration
 
@@ -282,7 +282,7 @@ From the "Kmeans" menu, select "c_min"=2, "c_max"=20 and "Go"
 
 The screenshots corresponding upto these steps are merged and shown below.
 
-![step_1_2.png](attachment:step_1_2.png)
+![step_1_2.png](images/step_1_2.png)
 
 Now, we have to detect the local environment and separate any particular type if more than one type exists.
 
@@ -333,7 +333,7 @@ To change the tolerances, go back to the "Environment separation" menu. Select "
 `Number of possible choice of unit cells :  4`
 The screenshots are shown below.
 
-![step_3_4.png](attachment:step_3_4.png)
+![step_3_4.png](images/step_3_4.png)
 
 The detected crystal class is "Cubic" and the number of possible unit cells is 4. Is askes another user input, "Continue? (y/n)". Please select "y" as we will move further with the detected crystal clas. 
 
@@ -352,4 +352,4 @@ Now the user could be able to see the specific details of the chosen unit cell i
 
 It also prints the unit cell particles identities, which can be used to verify the correct unit cell by tracking the particle coordinates in the chosen system. The relevant screenshot is shown below.
 
-![step_5.png](attachment:step_5.png)
+![step_5.png](images/step_5.png)
