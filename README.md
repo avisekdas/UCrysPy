@@ -295,9 +295,13 @@ It asks for the user input, "Enter your choice (int) of environment ....", Pleas
 Again it asks "Save Configuration? (y/n)". For the time being, choose "n" and select "OK".
 
 From "Environment separation" menu, select "Go" which asks an user input "Bravais/Non-bravais (b/nb)?". Please notice your terminal, where it should print some output.
+
 `Suggested distance cutoff for polyhedron:  ~ 0.01`
+
 `Suggested angle cutoff for polyhedron:  ~ 3.57`
+
 `Percentage of one kind of environment is :  ~ 50`
+
 As the percentage of one kind of local environment is ~ 50%, there exists two different environments indicating the crystal is a nonbravais structure, so enter "nb" and click "OK". Please follow the instruction as shown below.
 
 `******************ENVIRONMENT HAS BEEN SEPARATED. PLEASE RE-CALCULATE RDF, BOD, K-Means and  'ENVIRONMENT SEPARATION' again to check for the Bravais lattice *********************`
@@ -317,22 +321,31 @@ It asks for the user input, "Enter your choice (int) of environment ....", Pleas
 Again it asks "Save Configuration? (y/n)". For the time being, choose "n" and select "OK".
 
 From "Environment separation" menu, select "Go" which asks an user input "Bravais/Non-bravais (b/nb)?". Please notice your terminal, where it should print some output.
+
 `Suggested distance cutoff for polyhedron: ~ 0.03`
+
 `Suggested angle cutoff for polyhedron: ~ 2.44`
+
 `Percentage of one kind of environment is :  ~ 100`
+
 It asks for the user input "Bravais/Non-bravais (b/nb) ?". As the system has already turned into a Bravais structure, please select "b" resulting the system to be intact as it is.
 Now, the system turned into a Bravais lattice. It's time to identify the crystal class.
 
 To do this, from the "Crystal class" menu, select "elbow"=12 (as obtained from the last KMeans plot) and "Go".
 It prints one list, such as [0, 6, 8, 6] indicating the rotational symmetry operation of the BOD where there are no $C_6$ oprations but six $C_4$, eight $C_3$ and six $C_2$ ($\times$ 2) exist.
+
 `Detected crystal class is :  NONE`
+
 As it shows, no crystal class has been detected within the given tolerance values. So, it is required to tune the tolearnace a little bit so that we find the probable crystal class.
 
 It asks for an user input "Continue ? (y/n)". As no crystal class is detected, please select "n". It gives a warning as follow.
+
 `WARNING : Please recalculate "Environment separation" with extarnal tolerance values`
+
 To change the tolerances, go back to the "Environment separation" menu. Select "r_tol"=0.01, "a_tol"=5 and "Go". It again askas for the user input "Bravais/Non-bravais (b/nb) ?". As the transformed system is already a Bravais structure, please select "b" again. Then from "Crystal class" menu, select "elbow"=12 and "Go". Now, it prints the follwoing output.
 
 `Detected crystal class is :  CUBIC`
+
 `Number of possible choice of unit cells :  4`
 
 The screenshots are shown below.
@@ -346,6 +359,7 @@ Now, the crystal class is successfully detceted and we are required to identify 
 From the "Unit cell" menu, select "dist tol"=0.2 (i.e. distance tolerance), "angle tol"=12 (i.e. angle tolerance), "v_factor"=0.15 (i.e. volume factor) and "Go". It prints the output and the samples are shown below.
 
 `354 [1.998, 2.086, 2.096, 90.246, 87.186, 93.997] Running ......`
+
 `[1.998, 2.086, 2.096, 90.246, 87.186, 93.997] CUBIC 4 0  --> passed`
 
 Here, the format refers to the elements in the list as lattice parameters, $a$, $b$, $c$, $\alpha$, $\beta$, $\gamma$, followed by the $\textit{crystal class}$, $\textit{effective number of particles in the Bravais lattice}$ (in this case, 4), $\textit{the identity corresponding to the choice of unit cell}$, which are passed.
