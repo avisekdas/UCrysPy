@@ -36,7 +36,7 @@ There are two files; **param_file.json** and **ucryspy.sh** along a directory ca
 
 `$ ./ucryspy.sh`
 
-## Formatting the ``param_file.json'' :
+## Formatting the ''param_file.json'' :
 
 The user can change the minimum and maximum values of different input parameters depending on the situation to reflect the menus in the GUI. The corresponding instructions are written as ``_comment'' key.
 
