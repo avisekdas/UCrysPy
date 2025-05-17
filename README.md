@@ -32,7 +32,7 @@ There are two files; **param_file.json** and **ucryspy.sh** along a directory ca
 
 "**ucryspy.sh**" - A BASH script to run the GUI, where the **/src/main.py** is called.
 
-###### To run the GUI :
+### To run the GUI :
 
 `$ ./ucryspy.sh`
 
