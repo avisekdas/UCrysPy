@@ -19,7 +19,7 @@ There are some required python packages to be installed. Run the following comma
 
 `$ pip3 install numpy scipy matplotlib garnett freud-analysis coxeter gsd rowan scikit-learn distinctipy mpl-interactions spglib Geometry3D pyvistaqt pyvista PyQt5`
 
-##### Install ``fresnel" (https://fresnel.readthedocs.io/) separately to render the system configuration or other images from the package directly, otherwise it results error.
+##### Install "fresnel" (https://fresnel.readthedocs.io/) separately to render the system configuration or other images from the package directly, otherwise it results error.
 
 ##### Unzip the file
 
@@ -36,9 +36,9 @@ There are two files; **param_file.json** and **ucryspy.sh** along a directory ca
 
 `$ ./ucryspy.sh`
 
-## Formatting the ''param_file.json'' :
+## Formatting the "param_file.json" :
 
-The user can change the minimum and maximum values of different input parameters depending on the situation to reflect the menus in the GUI. The corresponding instructions are written as ``_comment'' key.
+The user can change the minimum and maximum values of different input parameters depending on the situation to reflect the menus in the GUI. The corresponding instructions are written as "_comment" key.
 
 For example; in the **param_file.json**, **rmax_min** = 1 and **rmax_max** = 50. But the user can change the values as per requirements. The same will be reflected in the GUI.
 ## Menus ---
