@@ -125,7 +125,7 @@ Calculate the positional distribution of the neighbors of all particles within a
 
 Use the K-Means clustering to calculate the the exact number of clusters present in the BOD by analysing the elbow.
 
-(a) c_min (*) ---> Initial guess of minimum number of the clusters to start the K-Means. Preferebly, c_min = 2
+(a) c_min (*) ---> Initial guess of minimum number of the clusters to start the K-Means. Preferably, c_min = 2
 
 (b) c_max (*) ---> Initial guess of maximum number of the clusters for the K-Means clustering. Keep the value  higher for the accurate determination.
 
